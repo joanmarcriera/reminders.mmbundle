@@ -12,6 +12,7 @@ on run argv
 	tell application "Reminders"
 		set theReminder to make new reminder 
 		set name of theReminder to theName
+		set body of theReminder to theNote
 		set due date of theReminder to  date ((date string of ((current date) + (10 * days))))
 	end tell
 end run
