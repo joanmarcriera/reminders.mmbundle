@@ -18,4 +18,4 @@ An exception is made for files in readable text which contain their own license 
 
 - failed to pass variables to define 1 2 5 10 days. 
 - failed to pass 9am flag, so reminders are set at the time of their creation
-
+- I'd like to add a link to the original email , so I can open from Reminders app. 
