@@ -1,0 +1,8 @@
+{
+	name          = 'Add With Summary..for 2 days';
+	input         = 'canonical';
+	environment   = 'MM_FROM=${from}\nMM_SUBJECT=${subject.prefix:+${subject.prefix} }${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\n';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/add_bash2d"';
+	keyEquivalent = "^A";
+	uuid          = 'A3C85DBE-DFE2-438E-B135-24C3C414FF09';
+}

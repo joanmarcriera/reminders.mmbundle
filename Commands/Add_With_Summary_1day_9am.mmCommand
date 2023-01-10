@@ -1,8 +1,0 @@
-{
-	name          = 'Add With Summary..for 1 day at 9am.';
-	input         = 'canonical';
-	environment   = 'MM_FROM=${from}\nMM_SUBJECT=${subject.prefix:+${subject.prefix} }${subject.blob:+[${subject.blob}] }${subject.body}\nMM_MESSAGE_ID=${message-id.split}\nMM_WHEN_DAYS=1\nMM_WHEN_TIME=9am';
-	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/create_task_bash"';
-	keyEquivalent = "^A";
-	uuid          = 'CDDDA94E-3863-4D77-A056-425D16309D8F';
-}
